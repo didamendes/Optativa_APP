@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import {NavController, NavParams} from 'ionic-angular';
 
-import { Usuario } from '../../models/usuario';
 import {UsuarioProvider} from '../../providers/usuario-provider';
 
 import {UsuarioPagePage} from '../usuario-page/usuario-page';
@@ -19,7 +18,6 @@ import {UsuarioPagePage} from '../usuario-page/usuario-page';
 export class UsuarioFormPage {
 
   usuario = {
-    _id: '',
     nome: '',
     email: '',
     login: '',

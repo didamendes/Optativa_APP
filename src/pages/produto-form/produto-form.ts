@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import {NavController, NavParams} from 'ionic-angular';
 
-import {Produto} from '../../models/produto';
 import {ProdutoProvider} from '../../providers/produto-provider';
 import {ProdutoPagePage} from '../produto-page/produto-page';
 
@@ -18,7 +17,6 @@ import {ProdutoPagePage} from '../produto-page/produto-page';
 export class ProdutoFormPage {
 
   produto = {
-    _id: '',
     nome: '',
     codigoBarra: '',
     descricao: '',
